@@ -22,10 +22,10 @@ class App < Sinatra::Base
   end
 
   post '/results' do
- answers = params.values
-@user_input = Array.new
-  answers.each do |answers|
- @user_input.push(answers)
+    answers = params.values
+    @user_input = Array.new
+    answers.each do |answers|
+    @user_input.push(answers)
   end
 
 @skin = skin_determinant(@user_input)
