@@ -1,5 +1,5 @@
 require './config/environment'
 
-require 'sinatra'
+require_relative './model/questions'
 
-run App 
+run App
