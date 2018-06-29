@@ -6,13 +6,13 @@ $balanced=["D","H"]
 
 
 def skin_determinant(user_input)
-  if $oily.include? user_input
+  if $oily.include? user_input.to_s
     "oily"
-  elsif $dry.include? user_input
+  elsif $dry.include? user_input.to_s
     "dry"
-  elsif $balanced.include? user_input
+  elsif $balanced.include? user_input.to_s
     "balanced"
-  elsif $combinational.include? user_input
+  elsif $combinational.include? user_input.to_s
     "combinational"
 end
 end
