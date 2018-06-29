@@ -1,3 +1,5 @@
 require './config/environment'
 
-run App
+run if __FILE__ == $PROGRAM_NAME
+  
+end
