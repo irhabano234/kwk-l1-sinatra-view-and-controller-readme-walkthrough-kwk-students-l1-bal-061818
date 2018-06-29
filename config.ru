@@ -1,5 +1,5 @@
 require './config/environment'
 
-require_relative './model/questions'
+require_relative './model/question'
 
 run App
