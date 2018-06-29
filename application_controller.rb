@@ -3,6 +3,7 @@ Application_controller.rb
 require 'bundler'
 Bundler.require
 require_relative 'models/questions'
+
 class App < Sinatra::Base
 
 
