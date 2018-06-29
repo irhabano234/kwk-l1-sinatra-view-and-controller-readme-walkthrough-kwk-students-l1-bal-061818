@@ -9,9 +9,9 @@ class App < Sinatra::Base
     erb :index
   end
 
-  # get '/questions' do
-  #   erb :questions
-  # end
+  get '/questions' do
+    erb :questions
+  end
 
   get '/oily' do
     erb :oily
