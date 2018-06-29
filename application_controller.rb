@@ -1,7 +1,7 @@
 
 require 'bundler'
 Bundler.require
-require_relative './model/questions'
+require_relative './model/question'
 
 class App < Sinatra::Base
 
