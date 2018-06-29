@@ -15,3 +15,4 @@ def skin_determinant(user_input)
   elsif $combinational.include? user_input
     "combinational"
 end
+end 
