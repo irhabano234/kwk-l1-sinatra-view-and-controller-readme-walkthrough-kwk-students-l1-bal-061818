@@ -1,4 +1,4 @@
-Application_controller.rb
+
 
 require 'bundler'
 Bundler.require
