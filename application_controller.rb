@@ -33,9 +33,9 @@ class App < Sinatra::Base
     erb :oily
   elsif @skin == "dry"
     erb :dry
-    elsif @skin == "combinational"
+  elsif @skin == "combinational"
     erb :combinational
-    else @skin == "balanced"
+  else @skin == "balanced"
     erb :balanced
   end
 end
