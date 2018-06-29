@@ -5,7 +5,6 @@ require_relative 'models/questions'
 
 class App < Sinatra::Base
 
-
   get '/' do
     erb :index
   end
